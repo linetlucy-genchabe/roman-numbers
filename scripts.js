@@ -10,30 +10,30 @@ const romanNum = {
 
 const s = "MCMLXXXIX";
 
-// function romanToInt(s) {
+function romanToInt(s) {
 
-//     for (let i = 0; i < s.length; i++) {
-//         if (s[i] === "I" && s[i + 1] === "v") {
-//             accumulator += 4;
-//             i++;
-//         } else if (s[i] === "I" && s[i + 1] === "X") {
-//             accumulator += 9;
-//             i++;
-//         } else if (s[i] === "X" && s[i + 1] === "L") {
-//             accumulator += 40;
-//             i++;
-//         } else if (s[i] === "X" && s[i + 1] === "C") {
-//             accumulator += 90;
-//             i++;
-//         } else if (s[i] === "C" && s[i + 1] === "D") {
-//             accumulator += 400;
-//             i++;
-//         } else if (s[i] === "C" && s[i + 1] === "M") {
-//             accumulator += 900;
-//             i++;
-//         } else {
-//             accumulator += romanNum[s[i]];
-//         }
-//     }
-//     return accumulator;
-// }
+    //     for (let i = 0; i < s.length; i++) {
+    //         if (s[i] === "I" && s[i + 1] === "v") {
+    //             accumulator += 4;
+    //             i++;
+    //         } else if (s[i] === "I" && s[i + 1] === "X") {
+    //             accumulator += 9;
+    //             i++;
+    //         } else if (s[i] === "X" && s[i + 1] === "L") {
+    //             accumulator += 40;
+    //             i++;
+    //         } else if (s[i] === "X" && s[i + 1] === "C") {
+    //             accumulator += 90;
+    //             i++;
+    //         } else if (s[i] === "C" && s[i + 1] === "D") {
+    //             accumulator += 400;
+    //             i++;
+    //         } else if (s[i] === "C" && s[i + 1] === "M") {
+    //             accumulator += 900;
+    //             i++;
+    //         } else {
+    //             accumulator += romanNum[s[i]];
+    //         }
+    //     }
+    //     return accumulator;
+    // }
