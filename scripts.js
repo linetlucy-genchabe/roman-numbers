@@ -37,3 +37,5 @@ function romanToInt(s) {
     }
     return accumulator;
 }
+var s = "MCMIV";
+document.write("Integer form of Roman Numeral" + " is " + romanToInt(s));
