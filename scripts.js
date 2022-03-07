@@ -11,6 +11,7 @@ const romanNum = {
 const s = "MCMLXXXIX";
 
 function romanToInt(s) {
+    let accumulator = 0;
 
     for (let i = 0; i < s.length; i++) {
         if (s[i] === "I" && s[i + 1] === "v") {
@@ -32,10 +33,10 @@ function romanToInt(s) {
             accumulator += 900;
             i++;
         } else {
-            accumulator += romanNum[s[i]];
+            accumulator += romanNum(s[i]);
         }
     }
     return accumulator;
 }
-var s = "MCMIV";
-document.write("Integer form of Roman Numeral" + " is " + romanToInt(s));
+//var s = "MCMIV";
+console.log("Integer form of Roman Numeral" + " is " + romanToInt(s));
