@@ -33,7 +33,7 @@ function romanToInt(s) {
             accumulator += 900;
             i++;
         } else {
-            accumulator += romanNum(s[i]);
+            accumulator += romanNum[s[i]];
         }
     }
     return accumulator;
